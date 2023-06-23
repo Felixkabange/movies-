@@ -1,0 +1,1 @@
+SELECT people.name FROM people JOIN movies ON people.id = movies.id WHERE movies.title = 'Toy Story';
